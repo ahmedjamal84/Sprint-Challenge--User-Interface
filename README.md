@@ -45,7 +45,7 @@ content , padding , border  and margin .
 The flexbox items are aligned at the center of the cross axis. By default, the cross axis is vertical. This means the flexbox items will be centered vertically.
 
 5. Explain why git is valuable to a team of developers.
-Git offers the type of performance, functionality, security and flexibility that most developers and teams need to develop their projects. When compared to other VCS Git is most widely accepted system owing to its universally accepted usability and performance standards
+Git offers the type of performance, functionality, security and flexibility that most developers and teams need to develop their projects. When compared to other VCS Git is most widely accepted system owing to its universally accepted usability and performance standardsm
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 

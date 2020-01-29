@@ -1,8 +1,8 @@
+
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
 */
-
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -24,7 +24,7 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-rticle, aside, details, figcaption, figure, 
+article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
@@ -46,26 +46,21 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-
 * {
     box-sizing: border-box;
 }
-
 html, body {
     height: 100%;
     font-family: 'Roboto', sans-serif;
 }
-
 h1, h2, h3, h4, h5 {
     font-size: 18px;
     margin-bottom: 15px;
     font-family: 'Rubik', sans-serif;
 }
-
 p {
     line-height: 1.4;
 }
-
 hr {
     border-top: 1px dashed;
 }
@@ -73,7 +68,6 @@ hr {
     width: 800px;
     margin: 0 auto;
 }
-
 .navigation {
     display: flex;
     justify-content: space-between;
@@ -93,7 +87,6 @@ nav a {
     color: black;
     margin: 0 35px;
 }
-
 .top-image {
     margin-bottom: 20px;
 }
@@ -104,17 +97,14 @@ nav a {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
 }
-
 .top-content .text-container {
     width: 48%;
     padding: 0 1%;
     padding-bottom: 20px;  
 }
-
 .top-about {
     margin-left: 15px;
 }
-
 .middle-about {
     display: flex;
     flex-wrap: wrap;
@@ -122,18 +112,15 @@ nav a {
     height: 890px;
     justify-content: space-evenly;
 }
-
 .about-box {
     width: 350px;
     margin: 0 10px 10px 10px;
     border-bottom: 1px dashed black;
     padding: 20px 0;
 }
-
 .about-box h2 {
     margin-top: 10px;
 }
-
 button {
     border: 1.2px solid black;
     background: white;
@@ -156,18 +143,15 @@ input {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
 }
-
 .middle-content h2 {
     padding: 0 2%;
     margin-bottom: 0;
 }
-
 .middle-content .boxes {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
 }
-
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
@@ -177,62 +161,47 @@ input {
     align-items: center;
     justify-content: center;
 }
-
-
 .box1 {
     background: teal;
 }
-
 .box2 {
     background-color: gold;
 }
-
 .box3 {
     background-color: cadetblue;
 }
-
 .box4 {
     background-color: coral;
 }
-
 .box5 {
     background-color: crimson;
 }
-
 .box6 {
     background-color: forestgreen;
 }
-
 .box7 {
     background-color: darkorchid;
 }
-
 .box8 {
     background-color: hotpink;
 }
-
 .box9 {
     background-color: indigo;
 }
-
 .box10 {
     background-color: dodgerblue;
 }
-
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
     justify-content: space-around;
 }
-
 .bottom-content .text-container {
     padding-right: 4%;
 }
-
 .bottom-content .text-container:last-child {
     padding-right: 0;
 }
-
 .bottom-about {
     margin: 20px 0px 20px 15px;
 }
@@ -240,7 +209,6 @@ footer {
     width: 100%;
     background: black;
 }
-
 footer nav {
     width: 60%;
     display: flex;
@@ -249,7 +217,6 @@ footer nav {
     padding: 20px 2%;
     font-size: 14px;
 }
-
 footer nav a {
     color: white;
     text-decoration: none;
